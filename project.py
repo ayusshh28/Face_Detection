@@ -64,4 +64,4 @@ if uploaded_file is not None:
 
         # Convert BGR to RGB for Streamlit
     display_img_rgb = cv2.cvtColor(img_clr, cv2.COLOR_BGR2RGB)
-    st.image(display_img_rgb, caption="Predicted Gender with Bounding Box", use_column_width=True)
+    st.image(display_img_rgb, caption="Predicted Gender with Bounding Box", use_container_width=True)
