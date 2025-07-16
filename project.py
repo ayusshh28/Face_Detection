@@ -23,7 +23,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Streamlit app title
-st.markdown("<h1 style='text-align: center; color: #1c1c1c;'>🔍 Predict Gender from Face</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #1c1c1c;'>🔍 Detect Gender from Face</h1>", unsafe_allow_html=True)
 
 st.markdown("<h3 style='text-align: center; color: #4b4b4b; font-weight: normal;'>Simply upload an image — we’ll do the detecting.</h3>", unsafe_allow_html=True)
 st.markdown("<br>", unsafe_allow_html=True)
